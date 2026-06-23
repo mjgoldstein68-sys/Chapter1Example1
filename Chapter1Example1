@@ -17,9 +17,11 @@ using namespace std::cin,std:cout;
 int main(){
     double hoursWorked // make this a double if the  rules of the business allow for partial hours worked.
     double earningPerHour//
-
+    salary :
     cout << "How many hours did you work?";
     cin >>hoursWorked;
     cout << "What do you earn per hour?" ;
     cin >> earningPerHour;
-    cout << "Your salary for this week is :"<<hoursWorked*earningPerHour<<endl;
+    salary =hoursWorked*earningPerHour;
+    cout << "Your salary for this week is :"<<salary<<endl;
+    return 
