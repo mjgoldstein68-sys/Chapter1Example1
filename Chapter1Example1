@@ -1,0 +1,25 @@
+/* Mark Goldstein
+Date:082026
+FileName:Chapter1example1
+Requirement:This program calculates the user's pay.
+Steps:
+1.Request hours worked from employe.
+2.request earnings per hour
+3. Display Salary for the week
+
+*/
+
+#include <iostream>   // This is the library that provides the capability to accept keystrokes from the keyboard
+                      // as well as sends output to the monitor.
+
+using namespace std::cin,std:cout;
+
+int main(){
+    double hoursWorked // make this a double if the  rules of the business allow for partial hours worked.
+    double earningPerHour//
+
+    cout << "How many hours did you work?";
+    cin >>hoursWorked;
+    cout << "What do you earn per hour?" ;
+    cin >> earningPerHour;
+    cout << "Your salary for this week is :"<<hoursWorked*earningPerHour<<endl;
