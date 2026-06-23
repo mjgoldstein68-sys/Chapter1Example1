@@ -24,4 +24,4 @@ int main(){
     cin >> earningPerHour;
     salary =hoursWorked*earningPerHour;
     cout << "Your salary for this week is :"<<salary<<endl;
-    return 
+    return 0;
